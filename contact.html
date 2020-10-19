@@ -10,11 +10,14 @@
       <p>555 666 887</p>
       <p>www.www.www</p>
   </body>
-  <form>
-    <input type="text"><br>
-    <input type="submit"><br>
-    <input type="radio"><br>
+  <form action="mailto:me@email.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourName"><br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail"><br>
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="">
     <input type="checkbox"><br>
-    <input type="color"><br>
   </form>
 </html>
